@@ -47,6 +47,7 @@ function draw() {
 
     if(block3.isTouching(ball)){
         ball.shapeColor = "red";
+        music.play();
     }
 
     ball.bounceOff(block3);
@@ -61,6 +62,7 @@ function draw() {
 
     if(block4.isTouching(ball)){
         ball.shapeColor = "green";
+        music.play();
     }
 
     ball.bounceOff(block4);
